@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(135, 188, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin-top: 30px;
+    width: 100%;
+    background-color: darkblue;
+    padding: 20px 30px;
+}
+
+.container h1{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bolder;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.container .input-box{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .input-box input{
+    width: 25vw;
+    height: 5vh;
+    border: none;
+    padding: 0px 10px;
+}
+
+.container .input-box button{
+    width: 6vw;
+    height: 5vh;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0px 10px;
+    border: none;
+    background-color: green;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.container .list-box{
+margin-top: 20px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+.container .list-box h3{
+    font-size: 1.3rem;
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container .list-box .item-list{
+    display: flex;
+    align-items: center;
+}
+
+.container .list-box .item-list .item{
+   padding: 5px 10px;
+   background-color: lightcyan;
+   font-size: 1.2rem;
+   font-weight: bold;
+   width: 20vw;
+  
+}
+
+
+
+.container .list-box .item-list button{
+    padding: 4.6px 12px;
+    background-color:antiquewhite;
+    font-size: 1.2rem;
+    color: red;
+    border: none;
+}
+
+.container .delall{
+    padding: 4.6px 12px;
+    background-color:antiquewhite;
+    font-size: 1.2rem;
+    color: red;
+    border: none;
+    margin-top: 10px;
+    margin-left: 200px;
+}
